@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support | COSMIC HYPE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="floating-orb orb-2"></div>
+
+    <nav>
+        <a href="index.html" class="logo">COSMIC<span>HYPE</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="authenticity.html">Authenticity</a></li>
+            <li><a href="support.html">Support</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobileMenu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="page-content">
+        <section class="ticket-section">
+            <div style="width: 100%;">
+                <h2 class="section-title" style="text-align: center; border: none;">SUBMIT A TICKET</h2>
+                <p style="text-align: center; color: #aaa; margin-bottom: 2rem;">Need help with an order, sourcing request, or authenticity inquiry?</p>
+                
+                <div style="display: flex; justify-content: center;">
+                    <form class="ticket-form glass" id="ticketForm">
+                        <input type="text" placeholder="Your Name (Earthling)" required>
+                        <input type="email" placeholder="Transmission Email" required>
+                        <select required>
+                            <option value="" disabled selected>Select Issue Category</option>
+                            <option value="order">Order Status</option>
+                            <option value="sourcing">Product Sourcing</option>
+                            <option value="auth">Authenticity Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <textarea placeholder="Describe your transmission..." required></textarea>
+                        <button type="submit" class="ticket-btn">SEND TRANSMISSION</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 COSMIC HYPE. All rights reserved. Operating from the outer rim.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

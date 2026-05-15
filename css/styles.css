@@ -1,0 +1,7 @@
+/* Paste your ENTIRE original CSS here, plus add this one snippet at the very bottom: */
+
+/* Utility class to push content down below the fixed navbar on sub-pages */
+.page-content {
+    padding-top: 100px;
+    min-height: calc(100vh - 150px); /* Pushes footer to the bottom */
+}
